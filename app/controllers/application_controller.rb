@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
   def check_access_token
 	  if current_user && current_user.access_token.nil? 
 			sign_out(current_user)
-			return redirect_to root_path
+			root_path
 		end
   end		 
 

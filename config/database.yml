@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: app-1
+  port: 5432
+  username: deepankanchitragupt
+  password: 
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: app-1
+  username: deepankanchitragupt
+  password: 
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: app-1
+  port: 5432 
+  username: deepankanchitragupt
+  password: 
+  host: localhost

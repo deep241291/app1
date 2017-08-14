@@ -3,6 +3,6 @@ class HomesController < ApplicationController
 	end
 
 	def redirect_user
-		return redirect_to "#{ENV[:host_name]}?token=#{current_user.access_token.access_token}"
+		return redirect_to "#{ENV['HOST_NAME']}?token=#{current_user.access_token.access_token}"
 	end
 end
